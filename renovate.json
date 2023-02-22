@@ -1,0 +1,72 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		":autodetectRangeStrategy",
+		":automergeMinor",
+		":automergeRequireAllStatusChecks",
+		":combinePatchMinorReleases",
+		":enableVulnerabilityAlerts",
+		":label(dependencies)",
+		":rebaseStalePrs",
+		":semanticCommitsDisabled",
+		":separateMajorReleases",
+		"group:recommended"
+	],
+	"assignAutomerge": true,
+	"commitBodyTable": true,
+	"commitMessagePrefix": "[TASK]",
+	"commitMessageTopic": "{{depName}}",
+	"labels": [
+		"dependencies"
+	],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"extends": [
+			"schedule:daily"
+		],
+		"commitMessageAction": "Update composer.lock"
+	},
+	"packageRules": [
+		{
+			"matchDepTypes": [
+				"require"
+			],
+			"rangeStrategy": "widen"
+		},
+		{
+			"matchDepTypes": [
+				"devDependencies"
+			],
+			"matchUpdateTypes": [
+				"minor",
+				"patch",
+				"pin",
+				"digest"
+			],
+			"automerge": true
+		},
+		{
+			"matchPackageNames": [
+				"php"
+			],
+			"allowedVersions": "^8.1",
+			"extends": [
+				":automergeDisabled"
+			],
+			"ignoreUnstable": false
+		}
+	],
+	"platformAutomerge": true,
+	"rangeStrategy": "widen",
+	"reviewers": [
+		"mteu"
+	],
+	"timezone": "Europe/Berlin",
+	"vulnerabilityAlerts": {
+		"extends": [
+			":automergeDisabled",
+			":automergePr"
+		],
+		"rangeStrategy": "replace"
+	}
+}
