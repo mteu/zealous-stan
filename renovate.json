@@ -10,6 +10,7 @@
 		":rebaseStalePrs",
 		":semanticCommitsDisabled",
 		":separateMajorReleases",
+		":widenPeerDependencies",
 		"group:recommended"
 	],
 	"assignAutomerge": true,
@@ -24,14 +25,21 @@
 		"extends": [
 			"schedule:daily"
 		],
-		"commitMessageAction": "Update composer.lock"
+		"commitMessageAction": "Update composer.lock",
+		"recreateClosed": true
 	},
 	"packageRules": [
 		{
+			"reviewers": [
+				"mteu"
+			],
 			"matchDepTypes": [
 				"require"
 			],
-			"rangeStrategy": "widen"
+			"rangeStrategy": "widen",
+			"extends": [
+				":automergeDisabled"
+			]
 		},
 		{
 			"matchDepTypes": [
@@ -58,9 +66,7 @@
 	],
 	"platformAutomerge": true,
 	"rangeStrategy": "widen",
-	"reviewers": [
-		"mteu"
-	],
+	"separateMinorPatch": true,
 	"timezone": "Europe/Berlin",
 	"vulnerabilityAlerts": {
 		"extends": [
