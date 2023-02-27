@@ -1,8 +1,10 @@
 changelog:
   exclude:
+    authors:
+      - "renovate"
     labels:
       - duplicate
-      - 'help wanted'
+      - "help wanted"
       - invalid
       - question
       - wontfix
