@@ -33,6 +33,10 @@ If you're using the [`phpstan/extension-installer`](https://github.com/phpstan/e
 * [spaze/phpstan-disallowed-calls](https://github.com/spaze/phpstan-disallowed-calls)
 * [symplify/phpstan-rule](https://github.com/symplify/phpstan-rules)
 
+## 🔎 Custom Rules
+Additionally, **Zealous Stan** offers custom PHPStan rules for various common use cases.
+* [`RequireCopyrightInformationInFirstCommentRule`](docs/custom_rules.md)
+
 > Please keep in mind that the list of featured extensions is highly subjective and only reflects my current workflow. 🤷
 
 ## 💛 Acknowledgement
