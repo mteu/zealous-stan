@@ -27,7 +27,7 @@ use PhpParser\Node;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
 
-final class RequireCopyrightNoticeInFirstCommentRule implements Rule
+final class RequireCopyrightInformationInFirstCommentRule implements Rule
 {
     private string $copyrightIdentifier;
 

@@ -1,9 +1,9 @@
 rules:
-	- Shrug\ZealousStan\Rules\RequireCopyrightNoticeInFirstCommentRule
+	- Shrug\ZealousStan\Rules\RequireCopyrightInformationInFirstCommentRule
 
 services:
 	-
-		class: Shrug\ZealousStan\Rules\RequireCopyrightNoticeInFirstCommentRule
+		class: Shrug\ZealousStan\Rules\RequireCopyrightInformationInFirstCommentRule
 		arguments:
 			copyrightIdentifier: %shrug.copyrightIdentifier%
 		tags:
