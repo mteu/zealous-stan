@@ -46,6 +46,15 @@
         ],
         "lint:composer": "@composer normalize --no-check-lock --no-update-lock",
         "lint:editorconfig": "ec",
-        "lint:editorconfig:fix": "@lint:editorconfig --fix"
+        "lint:editorconfig:fix": "@lint:editorconfig --fix",
+        "sca": [
+            "@sca:php"
+        ],
+        "sca:debug": [
+            "phpstan analyse -c phpstan.neon --debug -vvv --memory-limit=2g"
+        ],
+        "sca:php": [
+            "phpstan analyse -c phpstan.php"
+        ]
     }
 }
