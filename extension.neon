@@ -14,3 +14,4 @@ parameters:
 
 shrug:
 		copyrightIdentifier: 'Copyright (C) 2023'
+		requiredLicenseIdentifier: 'GPL-3.0'

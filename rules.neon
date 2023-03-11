@@ -1,15 +1,23 @@
 rules:
-	- Shrug\ZealousStan\Rules\RequireCopyrightInformationInFirstCommentRule
+	- Shrug\ZealousStan\Rules\RequireCopyrightNoticeInFirstCommentRule
+	- Shrug\ZealousStan\Rules\RequireLicenseInformationInFirstCommentRule
 
 services:
 	-
-		class: Shrug\ZealousStan\Rules\RequireCopyrightInformationInFirstCommentRule
+		class: Shrug\ZealousStan\Rules\RequireCopyrightNoticeInFirstCommentRule
 		arguments:
 			copyrightIdentifier: %shrug.copyrightIdentifier%
 		tags:
 				- phpstan.rules.rule
+	-
+		class: RequireLicenseInformationInFirstCommentRule
+		arguments:
+			requiredLicenseIdentifier: %shrug.requiredLicenseIdentifier%
+		tags:
+			- phpstan.rules.rule
 
 parametersSchema:
 		shrug: structure([
 			copyrightIdentifier: schema(string(), nullable())
+			requiredLicenseIdentifier: schema(string(), nullable())
 		])

@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 return [
     'includes' => [
-        __DIR__ . '/phpstan-baseline.php',
+       __DIR__ . '/phpstan-baseline.php',
     ],
     'parameters' => [
         'level' => 'max',
