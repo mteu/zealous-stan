@@ -22,9 +22,6 @@
 	],
 	"lockFileMaintenance": {
 		"enabled": true,
-		"extends": [
-			"schedule:daily"
-		],
 		"commitMessageAction": "Update composer.lock",
 		"recreateClosed": true
 	},
@@ -36,10 +33,7 @@
 			"matchDepTypes": [
 				"require"
 			],
-			"rangeStrategy": "widen",
-			"extends": [
-				":automergeDisabled"
-			]
+			"automerge": false
 		},
 		{
 			"matchDepTypes": [
@@ -60,12 +54,11 @@
 			"allowedVersions": "^8.1",
 			"extends": [
 				":automergeDisabled"
-			],
-			"ignoreUnstable": false
+			]
 		}
 	],
 	"platformAutomerge": true,
-	"rangeStrategy": "widen",
+	"rangeStrategy": "update-lockfile",
 	"separateMinorPatch": true,
 	"timezone": "Europe/Berlin",
 	"vulnerabilityAlerts": {
