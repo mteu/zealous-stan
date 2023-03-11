@@ -28,13 +28,11 @@ use PhpParser\Node\Stmt\Namespace_;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
 
+/**
+ * @implements Rule<Node\Stmt>
+ */
 final class RequireLicenseInformationInFirstCommentRule implements Rule
 {
-    /**
-     * @var string
-     */
-    private $requiredLicenseIdentifier = '';
-
     private const GPL20 = '
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -54,12 +52,17 @@ final class RequireLicenseInformationInFirstCommentRule implements Rule
         'GPL-3.0' => self::GPL30,
     ];
 
+    /**
+     * @param non-empty-string $requiredLicenseIdentifier
+     */
     public function __construct(
-        string $requiredLicenseIdentifier = '',
+        private readonly string $requiredLicenseIdentifier,
     ) {
-        $this->requiredLicenseIdentifier = $requiredLicenseIdentifier;
     }
 
+    /**
+     * @return class-string<Node\Stmt>
+     */
     public function getNodeType(): string
     {
         return Namespace_::class;
@@ -70,10 +73,6 @@ final class RequireLicenseInformationInFirstCommentRule implements Rule
         $comments = $node->getComments();
         $firstComment = false !== reset($comments) ? reset($comments) : null;
         $licenseText = self::SUPPORTED_LICENSES[$this->requiredLicenseIdentifier] ?? $this->requiredLicenseIdentifier;
-
-        if ('' === $licenseText) {
-            return [];
-        }
 
         if (null === $firstComment) {
             return [

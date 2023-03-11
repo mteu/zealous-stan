@@ -27,17 +27,23 @@ use PhpParser\Node;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
 
+/**
+ * @implements Rule<Node\Stmt>
+ */
 final class RequireCopyrightInformationInFirstCommentRule implements Rule
 {
-    private string $copyrightIdentifier;
-
-    // Needs review: Constructor promotions doesn't receive parameters correctly
+    /**
+     * Needs review: Constructor promotions doesn't receive parameters correctly
+     * @param non-empty-string $copyrightIdentifier
+     */
     public function __construct(
-        string $copyrightIdentifier = '',
+        private readonly string $copyrightIdentifier,
     ) {
-        $this->copyrightIdentifier = $copyrightIdentifier;
     }
 
+    /**
+     * @return class-string<Node\Stmt>
+     */
     public function getNodeType(): string
     {
         return Node\Stmt\Namespace_::class;
@@ -45,11 +51,6 @@ final class RequireCopyrightInformationInFirstCommentRule implements Rule
 
     public function processNode(Node $node, Scope $scope): array
     {
-        // This early return needs a review since it's just quick fix for redundant runs w/o parameter
-        if ('' === $this->copyrightIdentifier) {
-            return [];
-        }
-
         $comments = $node->getComments();
         $firstComment = false !== reset($comments) ? reset($comments) : null;
 
