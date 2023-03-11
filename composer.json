@@ -25,6 +25,11 @@
         "armin/editorconfig-cli": "^1.5",
         "ergebnis/composer-normalize": "^2.29"
     },
+	"autoload": {
+		"psr-4": {
+			"Shrug\\": "src/"
+		}
+	},
     "config": {
         "allow-plugins": {
             "ergebnis/composer-normalize": true,
