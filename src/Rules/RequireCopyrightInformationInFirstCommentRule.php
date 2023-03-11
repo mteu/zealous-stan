@@ -32,12 +32,8 @@ use PHPStan\Rules\Rule;
  */
 final class RequireCopyrightInformationInFirstCommentRule implements Rule
 {
-    /**
-     * Needs review: Constructor promotions doesn't receive parameters correctly
-     * @param non-empty-string $copyrightIdentifier
-     */
     public function __construct(
-        private readonly string $copyrightIdentifier,
+        private readonly string $copyrightIdentifier = '',
     ) {
     }
 

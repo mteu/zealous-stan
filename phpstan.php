@@ -27,5 +27,8 @@ return [
         'paths' => [
             'src',
         ],
+        'ignoreErrors' => [
+            '#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#',
+        ]
     ],
 ];

@@ -52,11 +52,8 @@ final class RequireLicenseInformationInFirstCommentRule implements Rule
         'GPL-3.0' => self::GPL30,
     ];
 
-    /**
-     * @param non-empty-string $requiredLicenseIdentifier
-     */
     public function __construct(
-        private readonly string $requiredLicenseIdentifier,
+        private readonly string $requiredLicenseIdentifier = '',
     ) {
     }
 
