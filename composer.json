@@ -25,11 +25,11 @@
         "armin/editorconfig-cli": "^1.5",
         "ergebnis/composer-normalize": "^2.29"
     },
-	"autoload": {
-		"psr-4": {
-			"Shrug\\": "src/"
-		}
-	},
+    "autoload": {
+        "psr-4": {
+            "Shrug\\ZealousStan\\": "src/"
+        }
+    },
     "config": {
         "allow-plugins": {
             "ergebnis/composer-normalize": true,
@@ -40,7 +40,8 @@
     "extra": {
         "phpstan": {
             "includes": [
-                "extension.neon"
+                "extension.neon",
+                "rules.neon"
             ]
         }
     },

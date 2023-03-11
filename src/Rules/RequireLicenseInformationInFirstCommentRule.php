@@ -21,7 +21,7 @@ declare(strict_types=1);
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Shrug\ZealousStan\Rule;
+namespace Shrug\ZealousStan\Rules;
 
 use PhpParser\Node;
 use PhpParser\Node\Stmt\Namespace_;
