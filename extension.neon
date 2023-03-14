@@ -7,9 +7,15 @@ parameters:
 
 		# you might want to review these ignores
 		ignoreErrors:
-				- "#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#"
-				- "#^Method [a-zA-Z0-9-_\\\\:()]+ has a nullable return type declaration.$#"
-				- "#^Method [a-zA-Z0-9-_\\\\:()]+ has parameter [\\$a-zA-Z0-9_-]+ with a nullable type declaration.$#"
+				-
+					message: "#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#"
+					reportUnmatched: false
+				-
+					message: "#^Method [a-zA-Z0-9-_\\\\:()]+ has a nullable return type declaration.$#"
+					reportUnmatched: false
+				-
+					message: "#^Method [a-zA-Z0-9-_\\\\:()]+ has parameter [\\$a-zA-Z0-9_-]+ with a nullable type declaration.$#"
+					reportUnmatched: false
 
 		shrug:
 				copyrightIdentifier: 'Copyright (C)'
