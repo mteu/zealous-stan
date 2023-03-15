@@ -27,29 +27,17 @@ use PhpParser\Node;
 use PhpParser\Node\Stmt\Namespace_;
 use PHPStan\Analyser\Scope;
 use PHPStan\Rules\Rule;
+use Shrug\ZealousStan\Enum\License;
 
 /**
  * @implements Rule<Node\Stmt>
  */
 final class RequireLicenseInformationInFirstCommentRule implements Rule
 {
-    private const GPL20 = '
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 2 of the License, or
-* (at your option) any later version.
-';
-
-    private const GPL30 = '
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
-';
-
+    // Update to Enum field reference in constant expression with PHP 8.2 support
     private const SUPPORTED_LICENSES = [
-        'GPL-2.0' => self::GPL20,
-        'GPL-3.0' => self::GPL30,
+        'GPL-2.0' => License::GPL20,
+        'GPL-3.0' => License::GPL30,
     ];
 
     public function __construct(
@@ -69,7 +57,9 @@ final class RequireLicenseInformationInFirstCommentRule implements Rule
     {
         $comments = $node->getComments();
         $firstComment = false !== reset($comments) ? reset($comments) : null;
-        $licenseText = self::SUPPORTED_LICENSES[$this->requiredLicenseIdentifier] ?? $this->requiredLicenseIdentifier;
+
+        $licenseKey = self::SUPPORTED_LICENSES[$this->requiredLicenseIdentifier];
+        $licenseText = $licenseKey->value ?? $this->requiredLicenseIdentifier;
 
         if (null === $firstComment) {
             return [

@@ -21,7 +21,7 @@ declare(strict_types=1);
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Shrug\ZealousStan;
+namespace Shrug\ZealousStan\Enum;
 
 enum License: string
 {
@@ -37,5 +37,4 @@ enum License: string
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
 ';
-    case MIT = 'MIT';
 }
