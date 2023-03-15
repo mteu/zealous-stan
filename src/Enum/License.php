@@ -21,21 +21,20 @@ declare(strict_types=1);
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-return [
-    'includes' => [
-        'rules.neon',
-    ],
-    'parameters' => [
-        'level' => 'max',
-        'paths' => [
-            'src',
-        ],
-        'ignoreErrors' => [
-            '#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#',
-        ],
-        'shrug' => [
-            'copyrightIdentifier' => 'Copyright (C) 20',
-            'requiredLicenseIdentifier' => 'GPL-3.0',
-        ],
-    ],
-];
+namespace Shrug\ZealousStan\Enum;
+
+enum License: string
+{
+    case GPL20 = '
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+';
+    case GPL30 = '
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+';
+}

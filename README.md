@@ -3,7 +3,6 @@
 [![PHP Version Require](http://poser.pugx.org/shrug/zealous-stan/require/php)](https://packagist.org/packages/shrug/zealous-stan)
 [![CGL](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml/badge.svg)](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml)
 [![Latest Stable Version](http://poser.pugx.org/shrug/zealous-stan/v)](https://packagist.org/packages/shrug/zealous-stan)
-[![Latest Unstable Version](http://poser.pugx.org/shrug/zealous-stan/v/unstable)](https://packagist.org/packages/shrug/zealous-stan)
 [![License](http://poser.pugx.org/shrug/zealous-stan/license)](https://packagist.org/packages/shrug/zealous-stan)
 
 # Zealous Stan
