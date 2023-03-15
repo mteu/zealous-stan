@@ -22,6 +22,9 @@ declare(strict_types=1);
  */
 
 return [
+    'includes' => [
+        'rules.neon',
+    ],
     'parameters' => [
         'level' => 'max',
         'paths' => [
@@ -29,6 +32,10 @@ return [
         ],
         'ignoreErrors' => [
             '#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#',
-        ]
+        ],
+        'shrug' => [
+            'copyrightIdentifier' => 'Copyright (C) 20',
+            'requiredLicenseIdentifier' => 'GPL-3.0',
+        ],
     ],
 ];
