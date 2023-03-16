@@ -22,9 +22,6 @@ declare(strict_types=1);
  */
 
 return [
-    'includes' => [
-        'rules.neon',
-    ],
     'parameters' => [
         'level' => 'max',
         'paths' => [
