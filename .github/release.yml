@@ -2,13 +2,13 @@ changelog:
   exclude:
     labels:
       - duplicate
-      - 'good first issue'
-      - 'help wanted'
-      - invalid
       - needs-tests
       - question
       - wontfix
   categories:
+    - title: 🚨 Security
+      labels:
+        - security
     - title: ⚡ Breaking
       labels:
         - breaking
@@ -21,12 +21,10 @@ changelog:
     - title: 👷 Changed
       labels:
         - maintenance
+        - "*"
     - title: 📖 Documentation
       labels:
         - documentation
     - title: ⚙️ Dependencies
       labels:
         - dependencies
-    - title: Other changes
-      labels:
-        - "*"
