@@ -5,8 +5,11 @@
 		":automergeMinor",
 		":automergeRequireAllStatusChecks",
 		":combinePatchMinorReleases",
-		":enableVulnerabilityAlerts",
+		":enableVulnerabilityAlertsWithLabel(security)",
+		":ignoreModulesAndTests",
 		":label(dependencies)",
+		":prConcurrentLimit10",
+		":prHourlyLimit2",
 		":rebaseStalePrs",
 		":semanticCommitsDisabled",
 		":separateMajorReleases",
@@ -22,18 +25,18 @@
 	],
 	"lockFileMaintenance": {
 		"enabled": true,
+		"extends": [
+			"schedule:daily"
+		],
 		"commitMessageAction": "Update composer.lock",
 		"recreateClosed": true
 	},
 	"packageRules": [
 		{
-			"reviewers": [
-				"mteu"
-			],
 			"matchDepTypes": [
 				"require"
 			],
-			"automerge": false
+			"rangeStrategy": "widen"
 		},
 		{
 			"matchDepTypes": [
@@ -51,7 +54,7 @@
 			"matchPackageNames": [
 				"php"
 			],
-			"allowedVersions": "^8.1",
+			"allowedVersions": "~8.1",
 			"extends": [
 				":automergeDisabled"
 			]
