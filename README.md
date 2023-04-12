@@ -27,15 +27,12 @@ If you're using the [`phpstan/extension-installer`](https://github.com/phpstan/e
 ## 🚀 Featured Extensions
 
 * [ergebnis/phpstan-rules](https://github.com/ergebnis/phpstan-rules)
+* [mteu/docblock-rules]()(https://github.com/mteu/docblock-rules)
 * [phpstan/phpstan-deprecation-rules](https://github.com/phpstan/phpstan-deprecation-rules)
 * [phpstan/phpstan-strict-rules](https://github.com/phpstan/phpstan-strict-rules)
 * [spaze/phpstan-disallowed-calls](https://github.com/spaze/phpstan-disallowed-calls)
 * [symplify/phpstan-rule](https://github.com/symplify/phpstan-rules)
 
-## 🔎 Custom Rules
-Additionally, **Zealous Stan** offers custom PHPStan rules for various common use cases.
-* [`RequireCopyrightInformationInFirstCommentRule`](docs/custom_rules.md)
-* [`RequireLicenseInformationInFirstCommentRule`](docs/custom_rules.md)
 
 > Please keep in mind that the list of featured extensions is highly subjective and only reflects my current workflow. 🤷
 
