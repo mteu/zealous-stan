@@ -1,7 +1,6 @@
 includes:
 		- ../../phpstan/phpstan/conf/bleedingEdge.neon
 		- ../../symplify/phpstan-rules/config/static-rules.neon
-		- rules.neon
 
 parameters:
 		level: max
@@ -18,7 +17,7 @@ parameters:
 					message: "#^Method [a-zA-Z0-9-_\\\\:()]+ has parameter [\\$a-zA-Z0-9_-]+ with a nullable type declaration.$#"
 					reportUnmatched: false
 
-		shrug:
+		docblock:
 				# Assign a copyright phrase that needs to be present in each PHP file.
 				copyrightIdentifier: 'Copyright (C)'
 				# Select a pre-defined license with 'GPL-2.0' or 'GPL-3.0' or assign a custom string that should be looked for.
