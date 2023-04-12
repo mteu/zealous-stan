@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7309456673be83a8dd9c40138ba69fc",
+    "content-hash": "1506d7301ef932a4f01ee53087730363",
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
@@ -86,7 +86,7 @@
         },
         {
             "name": "mteu/docblock-rules",
-            "version": "dev-main",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
@@ -107,7 +107,6 @@
                 "armin/editorconfig-cli": "^1.5",
                 "ergebnis/composer-normalize": "^2.29"
             },
-            "default-branch": true,
             "type": "phpstan-extension",
             "extra": {
                 "phpstan": {
@@ -136,7 +135,7 @@
             "description": "A few additional rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/main"
+                "source": "https://github.com/mteu/docblock-rules/tree/0.1.0"
             },
             "time": "2023-04-12T12:30:29+00:00"
         },
@@ -2368,18 +2367,9 @@
             "time": "2023-03-20T16:06:02+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "mteu/docblock-rules",
-            "version": "dev-main",
-            "alias": "1.0",
-            "alias_normalized": "1.0.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mteu/docblock-rules": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
