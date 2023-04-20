@@ -1,25 +1,29 @@
 <div align="center">
 
-[![PHP Version Require](http://poser.pugx.org/shrug/zealous-stan/require/php)](https://packagist.org/packages/shrug/zealous-stan)
-[![CGL](https://github.com/shrugify/zealous-stan/actions/workflows/cgl.yaml/badge.svg)](https://github.com/shrugify/zealous-stan/actions/workflows/cgl.yaml)
-[![Latest Stable Version](http://poser.pugx.org/shrug/zealous-stan/v)](https://packagist.org/packages/shrug/zealous-stan)
-[![License](http://poser.pugx.org/shrug/zealous-stan/license)](https://packagist.org/packages/shrug/zealous-stan)
+[![PHP Version Require](http://poser.pugx.org/mteu/zealous-stan/require/php)](https://packagist.org/packages/mteu/zealous-stan)
+[![CGL](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml/badge.svg)](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml)
+[![Latest Stable Version](http://poser.pugx.org/mteu/zealous-stan/v)](https://packagist.org/packages/mteu/zealous-stan)
+[![License](http://poser.pugx.org/mteu/zealous-stan/license)](https://packagist.org/packages/mteu/zealous-stan)
 
 # Zealous Stan
 </div>
 
-**Zealous Stan** is a simple and modest, and obviously highly subjective collection of commonly used [PHPStan](https://github.com/phpstan/phpstan) rules.
+**Zealous Stan** is a simple and modest, and obviously highly subjective collection of commonly used
+[PHPStan](https://github.com/phpstan/phpstan) rules.
 
 ## 🚨 Disclaimer
-Since **Zealous Stan** is my personal configuration for private projects it might not be generic enough to meet the needs of a larger audience. Chances are it never will. So, if you really wish to use it as is be prepared for unannouned breaking changes and/or semver violations. This packages likely needs additional configuration that I may or may not have documented here. Use at your own risk, please.
+Since **Zealous Stan** is my personal configuration for private projects it might not be generic enough to meet the needs
+of a larger audience. Chances are it never will. So, if you really wish to use it as is be prepared for unannounced
+breaking changes and/or semver violations. This packages likely needs additional configuration that I may or may not have
+documented here. Use at your own risk, please.
 
 ## ⚡ Usage
 
-Require this package and make sure to configure PHPStan according to your needs by putting a configuration file in your project
-(e.g. as `phpstan.neon` file in your package root.)
+Require this package and make sure to configure PHPStan according to your needs by putting a configuration file in your
+project (e.g. as `phpstan.neon` file in your package root.)
 
 ```bash
-composer require shrug/zealous-stan --dev
+composer require --dev mteu/zealous-stan
 ```
 
 If you're using the [`phpstan/extension-installer`](https://github.com/phpstan/extension-installer) you're good to go.
