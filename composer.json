@@ -1,5 +1,5 @@
 {
-    "name": "shrug/zealous-stan",
+    "name": "mteu/zealous-stan",
     "description": "A modest and highly subjective collection of commonly used phpstan rules",
     "license": "GPL-3.0-or-later",
     "type": "phpstan-extension",
