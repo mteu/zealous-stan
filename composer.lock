@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3eaca5afc391ef04bdd2f26ee3af57d",
+    "content-hash": "014ea577122a42509afc8a65bc0c536d",
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
@@ -80,16 +80,16 @@
         },
         {
             "name": "mteu/docblock-rules",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "ba9d9d2a75b53751dac10a5fed2017f0bfcbebcf"
+                "reference": "2bdbaae60c215f9461867af7c76975eb413cdaf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/ba9d9d2a75b53751dac10a5fed2017f0bfcbebcf",
-                "reference": "ba9d9d2a75b53751dac10a5fed2017f0bfcbebcf",
+                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/2bdbaae60c215f9461867af7c76975eb413cdaf2",
+                "reference": "2bdbaae60c215f9461867af7c76975eb413cdaf2",
                 "shasum": ""
             },
             "require": {
@@ -99,8 +99,8 @@
             },
             "require-dev": {
                 "armin/editorconfig-cli": "^1.5",
-                "ergebnis/composer-normalize": "^2.29",
-                "phpunit/phpunit": "^10.2"
+                "ergebnis/composer-normalize": "^2.37",
+                "phpunit/phpunit": "^10.3"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -130,9 +130,9 @@
             "description": "A few additional rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/0.1.4"
+                "source": "https://github.com/mteu/docblock-rules/tree/0.1.5"
             },
-            "time": "2023-06-21T09:18:12+00:00"
+            "time": "2023-10-03T13:28:21+00:00"
         },
         {
             "name": "nette/utils",
