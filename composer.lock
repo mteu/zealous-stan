@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3eaca5afc391ef04bdd2f26ee3af57d",
+    "content-hash": "2218c49b758c0d6d7a48dc193a3d2a8c",
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
@@ -84,12 +84,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "c8fd0457e605d0e9b6fced861eb2ebad84f3c90a"
+                "reference": "2bdbaae60c215f9461867af7c76975eb413cdaf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/c8fd0457e605d0e9b6fced861eb2ebad84f3c90a",
-                "reference": "c8fd0457e605d0e9b6fced861eb2ebad84f3c90a",
+                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/2bdbaae60c215f9461867af7c76975eb413cdaf2",
+                "reference": "2bdbaae60c215f9461867af7c76975eb413cdaf2",
                 "shasum": ""
             },
             "require": {
@@ -99,8 +99,8 @@
             },
             "require-dev": {
                 "armin/editorconfig-cli": "^1.5",
-                "ergebnis/composer-normalize": "^2.29",
-                "phpunit/phpunit": "^10.2"
+                "ergebnis/composer-normalize": "^2.37",
+                "phpunit/phpunit": "^10.3"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -132,7 +132,7 @@
                 "issues": "https://github.com/mteu/docblock-rules/issues",
                 "source": "https://github.com/mteu/docblock-rules/tree/0.1.5"
             },
-            "time": "2023-10-02T19:14:54+00:00"
+            "time": "2023-10-03T13:28:21+00:00"
         },
         {
             "name": "nette/utils",
