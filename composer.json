@@ -23,8 +23,8 @@
         "symplify/phpstan-rules": "^12.3.0"
     },
     "require-dev": {
-        "armin/editorconfig-cli": "^1.5",
-        "ergebnis/composer-normalize": "^2.29"
+        "armin/editorconfig-cli": "^1.6",
+        "ergebnis/composer-normalize": "^2.37"
     },
     "autoload": {
         "psr-4": {
