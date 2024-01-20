@@ -1,6 +1,6 @@
 {
 	"name": "mteu/zealous-stan",
-	"description": "A modest and highly subjective collection of commonly used phpstan rules",
+	"description": "A modest and highly opinionated collection of commonly used phpstan rules",
 	"license": "GPL-3.0-or-later",
 	"type": "phpstan-extension",
 	"authors": [
@@ -28,7 +28,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Shrug\\ZealousStan\\": "src/"
+			"Mteu\\ZealousStan\\": "src/"
 		}
 	},
 	"config": {
