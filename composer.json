@@ -26,11 +26,6 @@
 		"armin/editorconfig-cli": "^2.0",
 		"ergebnis/composer-normalize": "^2.37"
 	},
-	"autoload": {
-		"psr-4": {
-			"Mteu\\ZealousStan\\": "src/"
-		}
-	},
 	"config": {
 		"allow-plugins": {
 			"ergebnis/composer-normalize": true,
