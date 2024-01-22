@@ -481,21 +481,21 @@
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
-            "version": "v3.0.0",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spaze/phpstan-disallowed-calls.git",
-                "reference": "69935c9f519cae95e394fbde23ce5f962b2eba2f"
+                "reference": "ce98abe894de7062dac1dc5b0b950f5337dfa3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/69935c9f519cae95e394fbde23ce5f962b2eba2f",
-                "reference": "69935c9f519cae95e394fbde23ce5f962b2eba2f",
+                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/ce98abe894de7062dac1dc5b0b950f5337dfa3f4",
+                "reference": "ce98abe894de7062dac1dc5b0b950f5337dfa3f4",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10"
+                "phpstan/phpstan": "^1.10.52"
             },
             "require-dev": {
                 "nette/neon": "^3.2",
@@ -503,8 +503,7 @@
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpunit/phpunit": "^8.5 || ^10.1",
-                "spaze/coding-standard": "^1.7",
-                "symfony/polyfill-php80": "^1.27"
+                "spaze/coding-standard": "^1.7"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -536,7 +535,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spaze/phpstan-disallowed-calls/issues",
-                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v3.0.0"
+                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v3.1.0"
             },
             "funding": [
                 {
@@ -544,7 +543,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-22T18:15:31+00:00"
+            "time": "2024-01-22T03:57:26+00:00"
         },
         {
             "name": "symplify/phpstan-rules",
