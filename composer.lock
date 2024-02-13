@@ -481,16 +481,16 @@
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spaze/phpstan-disallowed-calls.git",
-                "reference": "fe566326b015674429e1a67a5343183942f493b9"
+                "reference": "d0b3d66d53fe581889c6f5927cacc5aed8249c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/fe566326b015674429e1a67a5343183942f493b9",
-                "reference": "fe566326b015674429e1a67a5343183942f493b9",
+                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/d0b3d66d53fe581889c6f5927cacc5aed8249c34",
+                "reference": "d0b3d66d53fe581889c6f5927cacc5aed8249c34",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +535,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spaze/phpstan-disallowed-calls/issues",
-                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v3.1.1"
+                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v3.1.2"
             },
             "funding": [
                 {
@@ -543,7 +543,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-22T22:10:47+00:00"
+            "time": "2024-02-13T18:26:25+00:00"
         },
         {
             "name": "symplify/phpstan-rules",
