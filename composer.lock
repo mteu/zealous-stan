@@ -222,25 +222,27 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.18.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "1bcbb2179f97633e98bbbc87044ee2611c7d7999"
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1bcbb2179f97633e98bbbc87044ee2611c7d7999",
-                "reference": "1bcbb2179f97633e98bbbc87044ee2611c7d7999",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2218c2252c874a4624ab2f613d86ac32d227bc69",
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
                 "ext-tokenizer": "*",
-                "php": ">=7.0"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -248,7 +250,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.9-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -272,9 +274,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.18.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.1"
             },
-            "time": "2023-12-10T21:03:43+00:00"
+            "time": "2024-02-21T19:24:10+00:00"
         },
         {
             "name": "phpstan/extension-installer",
@@ -547,21 +549,20 @@
         },
         {
             "name": "symplify/phpstan-rules",
-            "version": "12.4.8",
+            "version": "12.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/phpstan-rules.git",
-                "reference": "393656aaf9fd09d9dc40d658c57ef222dd1f082d"
+                "reference": "14b2f776414109648ddc1680a6bab0c0641e4d3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/393656aaf9fd09d9dc40d658c57ef222dd1f082d",
-                "reference": "393656aaf9fd09d9dc40d658c57ef222dd1f082d",
+                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/14b2f776414109648ddc1680a6bab0c0641e4d3a",
+                "reference": "14b2f776414109648ddc1680a6bab0c0641e4d3a",
                 "shasum": ""
             },
             "require": {
-                "nette/utils": "^3.2 || ^4.0",
-                "nikic/php-parser": "^4.17.1",
+                "nette/utils": "^3.2.9 || ^4.0",
                 "php": "^7.2|^8.0",
                 "phpstan/phpstan": "^1.10.30",
                 "webmozart/assert": "^1.11"
@@ -586,7 +587,7 @@
             "description": "Set of Symplify rules for PHPStan",
             "support": {
                 "issues": "https://github.com/symplify/phpstan-rules/issues",
-                "source": "https://github.com/symplify/phpstan-rules/tree/12.4.8"
+                "source": "https://github.com/symplify/phpstan-rules/tree/12.4.9"
             },
             "funding": [
                 {
@@ -598,7 +599,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-09T21:23:31+00:00"
+            "time": "2024-03-05T15:24:56+00:00"
         },
         {
             "name": "webmozart/assert",
