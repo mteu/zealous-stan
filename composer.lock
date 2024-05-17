@@ -80,16 +80,16 @@
         },
         {
             "name": "mteu/docblock-rules",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "4ca140e76e9024f51c0eab813946bca131d006a9"
+                "reference": "5781dc3f0d0c48ad766599c4ed630a82172929e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/4ca140e76e9024f51c0eab813946bca131d006a9",
-                "reference": "4ca140e76e9024f51c0eab813946bca131d006a9",
+                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/5781dc3f0d0c48ad766599c4ed630a82172929e7",
+                "reference": "5781dc3f0d0c48ad766599c4ed630a82172929e7",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             "require-dev": {
                 "armin/editorconfig-cli": "^2.0",
                 "ergebnis/composer-normalize": "^2.41",
-                "phpunit/phpunit": "^10.5"
+                "phpunit/phpunit": "^11.0"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -130,9 +130,9 @@
             "description": "A few additional rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/0.2.1"
+                "source": "https://github.com/mteu/docblock-rules/tree/0.2.2"
             },
-            "time": "2024-03-11T03:54:55+00:00"
+            "time": "2024-05-15T16:15:11+00:00"
         },
         {
             "name": "nette/utils",
