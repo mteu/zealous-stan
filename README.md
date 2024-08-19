@@ -1,9 +1,6 @@
 <div align="center">
 
-[![PHP Version Require](http://poser.pugx.org/mteu/zealous-stan/require/php)](https://packagist.org/packages/mteu/zealous-stan)
 [![CGL](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml/badge.svg)](https://github.com/mteu/zealous-stan/actions/workflows/cgl.yaml)
-[![Latest Stable Version](http://poser.pugx.org/mteu/zealous-stan/v)](https://packagist.org/packages/mteu/zealous-stan)
-[![License](http://poser.pugx.org/mteu/zealous-stan/license)](https://packagist.org/packages/mteu/zealous-stan)
 
 # Zealous Stan
 </div>
