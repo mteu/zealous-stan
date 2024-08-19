@@ -80,16 +80,16 @@
         },
         {
             "name": "mteu/docblock-rules",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "2d70a907d19392c876f75f8fc232ef4afcbe0fc0"
+                "reference": "9e4958a5bd07e60b6d2d261a2f2288b2ba4709a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/2d70a907d19392c876f75f8fc232ef4afcbe0fc0",
-                "reference": "2d70a907d19392c876f75f8fc232ef4afcbe0fc0",
+                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/9e4958a5bd07e60b6d2d261a2f2288b2ba4709a4",
+                "reference": "9e4958a5bd07e60b6d2d261a2f2288b2ba4709a4",
                 "shasum": ""
             },
             "require": {
@@ -130,9 +130,9 @@
             "description": "A few additional rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/0.3.0"
+                "source": "https://github.com/mteu/docblock-rules/tree/0.3.1"
             },
-            "time": "2024-08-19T06:55:42+00:00"
+            "time": "2024-08-19T08:03:43+00:00"
         },
         {
             "name": "nette/utils",
