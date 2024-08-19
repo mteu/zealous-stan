@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b7cd0521f6ffe37958c9e5b2c23275e",
+    "content-hash": "38fd8519b4f42931c1c3cb156c0371ea",
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
@@ -80,27 +80,27 @@
         },
         {
             "name": "mteu/docblock-rules",
-            "version": "0.2.2",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "5781dc3f0d0c48ad766599c4ed630a82172929e7"
+                "reference": "2d70a907d19392c876f75f8fc232ef4afcbe0fc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/5781dc3f0d0c48ad766599c4ed630a82172929e7",
-                "reference": "5781dc3f0d0c48ad766599c4ed630a82172929e7",
+                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/2d70a907d19392c876f75f8fc232ef4afcbe0fc0",
+                "reference": "2d70a907d19392c876f75f8fc232ef4afcbe0fc0",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.2 || ~8.3",
+                "php": "~8.1 || ~8.2 || ~8.3",
                 "phpstan/extension-installer": "^1.2",
                 "phpstan/phpstan": "^1.10"
             },
             "require-dev": {
-                "armin/editorconfig-cli": "^2.0",
+                "armin/editorconfig-cli": "^1.8 || ^2.0",
                 "ergebnis/composer-normalize": "^2.41",
-                "phpunit/phpunit": "^11.0"
+                "phpunit/phpunit": "^10.0"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -130,9 +130,9 @@
             "description": "A few additional rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/0.2.2"
+                "source": "https://github.com/mteu/docblock-rules/tree/0.3.0"
             },
-            "time": "2024-05-15T16:15:11+00:00"
+            "time": "2024-08-19T06:55:42+00:00"
         },
         {
             "name": "nette/utils",

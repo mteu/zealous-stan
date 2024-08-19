@@ -14,7 +14,7 @@
 	"require": {
 		"php": "~8.2 || ~8.3",
 		"ergebnis/phpstan-rules": "^2.1",
-		"mteu/docblock-rules": "^0.2",
+		"mteu/docblock-rules": "^0.3",
 		"phpstan/extension-installer": "^1.3",
 		"phpstan/phpstan": "^1.10",
 		"phpstan/phpstan-deprecation-rules": "^1.1",
