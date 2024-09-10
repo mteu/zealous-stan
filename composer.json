@@ -24,7 +24,8 @@
 	},
 	"require-dev": {
 		"armin/editorconfig-cli": "^1.8 || ^2.0",
-		"ergebnis/composer-normalize": "^2.37"
+		"ergebnis/composer-normalize": "^2.37",
+		"shipmonk/phpstan-rules": "^3.2"
 	},
 	"config": {
 		"allow-plugins": {
