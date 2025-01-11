@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
-            "version": "2.5.0",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/phpstan-rules.git",
-                "reference": "ffbc24d0d7e7b0d2b45f524753c20d83a83f66de"
+                "reference": "2754afbaf4f31ec82aab1cc0e2fdd68130a974c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/ffbc24d0d7e7b0d2b45f524753c20d83a83f66de",
-                "reference": "ffbc24d0d7e7b0d2b45f524753c20d83a83f66de",
+                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/2754afbaf4f31ec82aab1cc0e2fdd68130a974c8",
+                "reference": "2754afbaf4f31ec82aab1cc0e2fdd68130a974c8",
                 "shasum": ""
             },
             "require": {
@@ -27,16 +27,18 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.20.0 || ^3.3.0",
-                "ergebnis/composer-normalize": "^2.44.0",
+                "ergebnis/composer-normalize": "^2.45.0",
                 "ergebnis/license": "^2.6.0",
                 "ergebnis/php-cs-fixer-config": "^6.39.0",
                 "ergebnis/phpunit-slow-test-detector": "^2.17.0",
                 "nette/di": "^3.1.10",
                 "nikic/php-parser": "^4.19.4",
+                "phpstan/extension-installer": "^1.4.3",
                 "phpstan/phpstan-deprecation-rules": "^1.2.1",
                 "phpstan/phpstan-strict-rules": "^1.6.1",
                 "phpunit/phpunit": "^9.6.21",
                 "psr/container": "^2.0.2",
+                "symfony/finder": "^5.4.45",
                 "symfony/process": "^5.4.47"
             },
             "type": "phpstan-extension",
@@ -74,7 +76,7 @@
                 "security": "https://github.com/ergebnis/phpstan-rules/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/phpstan-rules"
             },
-            "time": "2024-12-01T16:44:41+00:00"
+            "time": "2025-01-08T09:28:54+00:00"
         },
         {
             "name": "mteu/docblock-rules",
