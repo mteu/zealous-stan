@@ -18,10 +18,10 @@
 		"phpstan/extension-installer": "^1.4",
 		"phpstan/phpstan": "2.0.4 as 1.12.99",
 		"phpstan/phpstan-deprecation-rules": "^2.0",
-		"phpstan/phpstan-strict-rules": "^1.5",
-		"shipmonk/phpstan-rules": "^3.2",
-		"spaze/phpstan-disallowed-calls": "^3.0",
-		"symplify/phpstan-rules": "^13.0.0"
+		"phpstan/phpstan-strict-rules": "^2.0",
+		"shipmonk/phpstan-rules": "^4.0",
+		"spaze/phpstan-disallowed-calls": "^4.0",
+		"symplify/phpstan-rules": "^14.0.0"
 	},
 	"require-dev": {
 		"armin/editorconfig-cli": "^1.8 || ^2.0",
