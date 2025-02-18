@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/phpstan-rules.git",
-                "reference": "b70e17f79347070a34cb2883b23fb50c565cf73c"
+                "reference": "30e790621fbad05573ef9cd355279fff5122e080"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/b70e17f79347070a34cb2883b23fb50c565cf73c",
-                "reference": "b70e17f79347070a34cb2883b23fb50c565cf73c",
+                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/30e790621fbad05573ef9cd355279fff5122e080",
+                "reference": "30e790621fbad05573ef9cd355279fff5122e080",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +76,7 @@
                 "security": "https://github.com/ergebnis/phpstan-rules/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/phpstan-rules"
             },
-            "time": "2025-02-17T20:15:09+00:00"
+            "time": "2025-02-18T11:20:05+00:00"
         },
         {
             "name": "mteu/docblock-rules",
