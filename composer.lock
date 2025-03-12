@@ -549,22 +549,22 @@
         },
         {
             "name": "symplify/phpstan-rules",
-            "version": "14.3.5",
+            "version": "14.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/phpstan-rules.git",
-                "reference": "b7568de69b4376264e6a02e657f0a235999f154c"
+                "reference": "33b86830fac828926560afebde9881a3a117b061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/b7568de69b4376264e6a02e657f0a235999f154c",
-                "reference": "b7568de69b4376264e6a02e657f0a235999f154c",
+                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/33b86830fac828926560afebde9881a3a117b061",
+                "reference": "33b86830fac828926560afebde9881a3a117b061",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.2|^4.0",
                 "php": "^7.4|^8.0",
-                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan": "^2.1.8",
                 "webmozart/assert": "^1.11"
             },
             "type": "phpstan-extension",
@@ -590,7 +590,7 @@
             "description": "Set of Symplify rules for PHPStan",
             "support": {
                 "issues": "https://github.com/symplify/phpstan-rules/issues",
-                "source": "https://github.com/symplify/phpstan-rules/tree/14.3.5"
+                "source": "https://github.com/symplify/phpstan-rules/tree/14.4.0"
             },
             "funding": [
                 {
@@ -602,7 +602,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-03T08:32:42+00:00"
+            "time": "2025-03-12T10:48:39+00:00"
         },
         {
             "name": "webmozart/assert",
