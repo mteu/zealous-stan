@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58f18f445f19ca069d35e0bd144ce30a",
+    "content-hash": "a6f113e548408b650cb85d2e1adef800",
     "packages": [
         {
             "name": "ergebnis/phpstan-rules",
@@ -79,63 +79,6 @@
                 "source": "https://github.com/ergebnis/phpstan-rules"
             },
             "time": "2025-06-23T17:35:58+00:00"
-        },
-        {
-            "name": "mteu/docblock-rules",
-            "version": "0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mteu/docblock-rules.git",
-                "reference": "bc373dda22226691c98f17ac2616ab7835450747"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mteu/docblock-rules/zipball/bc373dda22226691c98f17ac2616ab7835450747",
-                "reference": "bc373dda22226691c98f17ac2616ab7835450747",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.2 || ~8.3 || ~8.4",
-                "phpstan/extension-installer": "^1.4",
-                "phpstan/phpstan": "^2.0"
-            },
-            "require-dev": {
-                "armin/editorconfig-cli": "^2.0",
-                "ergebnis/composer-normalize": "^2.41",
-                "phpunit/phpunit": "^10.0",
-                "rector/rector": "^2.0"
-            },
-            "type": "phpstan-extension",
-            "extra": {
-                "phpstan": {
-                    "includes": [
-                        "extension.neon"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Mteu\\DocBlockRules\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Martin Adler",
-                    "email": "mteu@mailbox.org",
-                    "homepage": "https://github.com/mteu",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "A few additional rules for PHPStan",
-            "support": {
-                "issues": "https://github.com/mteu/docblock-rules/issues",
-                "source": "https://github.com/mteu/docblock-rules/tree/0.4.0"
-            },
-            "time": "2024-12-27T10:01:17+00:00"
         },
         {
             "name": "nette/utils",

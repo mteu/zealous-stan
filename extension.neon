@@ -4,21 +4,3 @@ includes:
 
 parameters:
 		level: max
-
-		# you might want to review these ignores
-		ignoreErrors:
-				-
-					message: "#^Constructor in [a-zA-Z0-9-_\\\\]+ has parameter [\\$a-zA-Z0-9_-]+ with default value.$#"
-					reportUnmatched: false
-				-
-					message: "#^Method [a-zA-Z0-9-_\\\\:()]+ has a nullable return type declaration.$#"
-					reportUnmatched: false
-				-
-					message: "#^Method [a-zA-Z0-9-_\\\\:()]+ has parameter [\\$a-zA-Z0-9_-]+ with a nullable type declaration.$#"
-					reportUnmatched: false
-
-		docblock:
-				# Assign a copyright phrase that needs to be present in each PHP file.
-				copyrightIdentifier: 'Copyright (C)'
-				# Select a pre-defined license with 'GPL-2.0' or 'GPL-3.0' or assign a custom string that should be looked for.
-				requiredLicenseIdentifier: 'GPL-3.0'
