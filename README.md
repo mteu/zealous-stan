@@ -28,7 +28,6 @@ If you're using the [`phpstan/extension-installer`](https://github.com/phpstan/e
 ## 🚀 Featured Extensions
 
 * [ergebnis/phpstan-rules](https://github.com/ergebnis/phpstan-rules)
-* [mteu/docblock-rules](https://github.com/mteu/docblock-rules)
 * [phpstan/phpstan-deprecation-rules](https://github.com/phpstan/phpstan-deprecation-rules)
 * [phpstan/phpstan-strict-rules](https://github.com/phpstan/phpstan-strict-rules)
 * [spaze/phpstan-disallowed-calls](https://github.com/spaze/phpstan-disallowed-calls)
