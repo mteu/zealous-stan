@@ -366,16 +366,16 @@
         },
         {
             "name": "shipmonk/phpstan-rules",
-            "version": "4.3.0",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shipmonk-rnd/phpstan-rules.git",
-                "reference": "d8ef02e33ee3b109c952a76eaf554d5966bb2a70"
+                "reference": "791c9e8ce21672f5a48a55452eb20327ee463e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shipmonk-rnd/phpstan-rules/zipball/d8ef02e33ee3b109c952a76eaf554d5966bb2a70",
-                "reference": "d8ef02e33ee3b109c952a76eaf554d5966bb2a70",
+                "url": "https://api.github.com/repos/shipmonk-rnd/phpstan-rules/zipball/791c9e8ce21672f5a48a55452eb20327ee463e8a",
+                "reference": "791c9e8ce21672f5a48a55452eb20327ee463e8a",
                 "shasum": ""
             },
             "require": {
@@ -419,9 +419,9 @@
             ],
             "support": {
                 "issues": "https://github.com/shipmonk-rnd/phpstan-rules/issues",
-                "source": "https://github.com/shipmonk-rnd/phpstan-rules/tree/4.3.0"
+                "source": "https://github.com/shipmonk-rnd/phpstan-rules/tree/4.3.1"
             },
-            "time": "2025-12-01T11:58:01+00:00"
+            "time": "2025-12-08T13:45:36+00:00"
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
@@ -492,16 +492,16 @@
         },
         {
             "name": "symplify/phpstan-rules",
-            "version": "14.9.3",
+            "version": "14.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/phpstan-rules.git",
-                "reference": "3d9c46502852d89688242afef2621d005d9bccc2"
+                "reference": "8557736b5e7b8c10f68e6c6f0692b5dce305d307"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/3d9c46502852d89688242afef2621d005d9bccc2",
-                "reference": "3d9c46502852d89688242afef2621d005d9bccc2",
+                "url": "https://api.github.com/repos/symplify/phpstan-rules/zipball/8557736b5e7b8c10f68e6c6f0692b5dce305d307",
+                "reference": "8557736b5e7b8c10f68e6c6f0692b5dce305d307",
                 "shasum": ""
             },
             "require": {
@@ -533,7 +533,7 @@
             "description": "Set of Symplify rules for PHPStan",
             "support": {
                 "issues": "https://github.com/symplify/phpstan-rules/issues",
-                "source": "https://github.com/symplify/phpstan-rules/tree/14.9.3"
+                "source": "https://github.com/symplify/phpstan-rules/tree/14.9.5"
             },
             "funding": [
                 {
@@ -545,7 +545,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-02T13:11:47+00:00"
+            "time": "2025-12-08T15:34:48+00:00"
         },
         {
             "name": "webmozart/assert",
