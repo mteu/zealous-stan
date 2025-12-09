@@ -366,16 +366,16 @@
         },
         {
             "name": "shipmonk/phpstan-rules",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shipmonk-rnd/phpstan-rules.git",
-                "reference": "791c9e8ce21672f5a48a55452eb20327ee463e8a"
+                "reference": "fa4054b5b39bc57d093953cdc40348a929417b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shipmonk-rnd/phpstan-rules/zipball/791c9e8ce21672f5a48a55452eb20327ee463e8a",
-                "reference": "791c9e8ce21672f5a48a55452eb20327ee463e8a",
+                "url": "https://api.github.com/repos/shipmonk-rnd/phpstan-rules/zipball/fa4054b5b39bc57d093953cdc40348a929417b62",
+                "reference": "fa4054b5b39bc57d093953cdc40348a929417b62",
                 "shasum": ""
             },
             "require": {
@@ -391,6 +391,7 @@
                 "phpunit/phpunit": "^9.6.22",
                 "shipmonk/coding-standard": "^0.2.0",
                 "shipmonk/composer-dependency-analyser": "^1.8.1",
+                "shipmonk/coverage-guard": "^1.0.0",
                 "shipmonk/dead-code-detector": "^0.9.0",
                 "shipmonk/name-collision-detector": "^2.1.1",
                 "shipmonk/phpstan-dev": "^0.1.2"
@@ -419,9 +420,9 @@
             ],
             "support": {
                 "issues": "https://github.com/shipmonk-rnd/phpstan-rules/issues",
-                "source": "https://github.com/shipmonk-rnd/phpstan-rules/tree/4.3.1"
+                "source": "https://github.com/shipmonk-rnd/phpstan-rules/tree/4.3.2"
             },
-            "time": "2025-12-08T13:45:36+00:00"
+            "time": "2025-12-09T14:42:37+00:00"
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
