@@ -426,16 +426,16 @@
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
-            "version": "v4.7.1",
+            "version": "v4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spaze/phpstan-disallowed-calls.git",
-                "reference": "4be6274bc23a2c44817690feda3ae4189496c246"
+                "reference": "e80372a55bdad13d22a62fdf2116a67a5438c34b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/4be6274bc23a2c44817690feda3ae4189496c246",
-                "reference": "4be6274bc23a2c44817690feda3ae4189496c246",
+                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/e80372a55bdad13d22a62fdf2116a67a5438c34b",
+                "reference": "e80372a55bdad13d22a62fdf2116a67a5438c34b",
                 "shasum": ""
             },
             "require": {
@@ -447,8 +447,8 @@
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/phpstan-deprecation-rules": "^1.2 || ^2.0",
-                "phpunit/phpunit": "^8.5.14 || ^10.1 || ^11.0 || ^12.0",
-                "shipmonk/dead-code-detector": "^0.14.1",
+                "phpunit/phpunit": "^8.5.14 || ^10.1 || ^11.0 || ^12.0 || ^13.0",
+                "shipmonk/dead-code-detector": "^0.15.0",
                 "spaze/coding-standard": "^1.8"
             },
             "type": "phpstan-extension",
@@ -481,7 +481,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spaze/phpstan-disallowed-calls/issues",
-                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v4.7.1"
+                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v4.9.0"
             },
             "funding": [
                 {
@@ -489,7 +489,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-31T03:50:05+00:00"
+            "time": "2026-03-13T22:27:50+00:00"
         },
         {
             "name": "symplify/phpstan-rules",
